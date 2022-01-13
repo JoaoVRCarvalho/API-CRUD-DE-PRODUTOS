@@ -1,0 +1,13 @@
+.card {
+    margin-top: 15px
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+}
