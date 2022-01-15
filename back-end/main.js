@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const initDb = require('./config/migration.js');
+// const initDb = require('./config/migration.js');
 const sql = require("./config/db.js");
 const cors = require('cors')
-const fs = require("fs")
+// const fs = require("fs")
 const priceFormatter = require("./model/priceValidation.model.js");
 const path = require('path');
 
