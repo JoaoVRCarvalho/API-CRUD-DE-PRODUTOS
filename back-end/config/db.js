@@ -1,8 +1,10 @@
 const mysql = require("mysql")
 
+//insert database connection
 const con = mysql.createConnection({
     host: "localhost",
     user: "root",
+    password: 'root',
     database: "produtosDB"
 })
 
